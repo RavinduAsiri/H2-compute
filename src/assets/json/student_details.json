@@ -3,148 +3,71 @@
   "list": [
     {
       "code": "001",
-      "firstname": "Tiffany",
-      "lastname": "Callahan",
+      "firstname": "Amal",
+      "lastname": "perera",
       "dob": "1996-01-28"
     },
     {
       "code": "002",
-      "firstname": "Juliana",
-      "lastname": "Barnard",
+      "firstname": "Kamal",
+      "lastname": "Silva",
       "dob": "1987-07-21"
     },
     {
       "code": "003",
-      "firstname": "Laura",
-      "lastname": "Helmkamp",
+      "firstname": "Thilina",
+      "lastname": "Aravinda",
       "dob": "2002-02-11"
     },
     {
       "code": "004",
-      "firstname": "Julie",
-      "lastname": "Maertens",
+      "firstname": "Gihan",
+      "lastname": "Arachchi",
       "dob": "1997-08-30"
     },
     {
       "code": "005",
-      "firstname": "Michael",
-      "lastname": "Kahn",
+      "firstname": "Ashini",
+      "lastname": "Pushmika",
       "dob": "1978-05-15"
     },
     {
       "code": "006",
-      "firstname": "Sutapa",
-      "lastname": "Mukodhyay",
+      "firstname": "Vinusha",
+      "lastname": "Muthu",
       "dob": "1999-11-11"
     },
     {
       "code": "007",
-      "firstname": "Molly",
-      "lastname": "Golladay",
+      "firstname": "Ravindu",
+      "lastname": "Asiri",
       "dob": "2010-01-13"
     },
     {
       "code": "008",
-      "firstname": "Melissa",
-      "lastname": "McPheeters",
+      "firstname": "Nipun",
+      "lastname": "kalhara",
       "dob": "1992-04-27"
     },
     {
       "code": "009",
-      "firstname": "Sarah",
-      "lastname": "Nechuta",
+      "firstname": "Sara",
+      "lastname": "Suzan",
       "dob": "1998-07-21"
     },
     {
       "code": "010",
-      "firstname": "Esther",
-      "lastname": "Munyisia",
+      "firstname": "Isuru",
+      "lastname": "Sampath",
       "dob": "1982-04-13"
     },
     {
       "code": "011",
-      "firstname": "David",
-      "lastname": "Reid",
+      "firstname": "Dulanga",
+      "lastname": "Sampath",
       "dob": "1996-09-19"
-    },
-    {
-      "code": "012",
-      "firstname": "David",
-      "lastname": "Hailey",
-      "dob": "1968-04-24"
-    },
-    {
-      "code": "013",
-      "firstname": "Ping",
-      "lastname": "Yu",
-      "dob": "1995-05-15"
-    },
-    {
-      "code": "014",
-      "firstname": "Peng",
-      "lastname": "Zhang",
-      "dob": "2001-03-23"
-    },
-    {
-      "code": "015",
-      "firstname": "Michl",
-      "lastname": "Dumotier",
-      "dob": "1998-07-02"
-    },
-    {
-      "code": "016",
-      "firstname": "George",
-      "lastname": "Hripcsak",
-      "dob": "1983-09-31"
-    },
-    {
-      "code": "017",
-      "firstname": "Chunhua",
-      "lastname": "Weng",
-      "dob": "1993-04-25"
-    },
-    {
-      "code": "018",
-      "firstname": "Ellen",
-      "lastname": "Harper",
-      "dob": "1996-01-28"
-    },
-    {
-      "code": "019",
-      "firstname": "Deborah",
-      "lastname": "Ariosto",
-      "dob": "2004-05-16"
-    },
-    {
-      "code": "020",
-      "firstname": "Marisa",
-      "lastname": "Wilson",
-      "dob": "1996-01-28"
-    },
-    {
-      "code": "021",
-      "firstname": "Susan",
-      "lastname": "Hull",
-      "dob": "1997-06-12"
-    },
-    {
-      "code": "022",
-      "firstname": "Martha",
-      "lastname": "Sylvia",
-      "dob": "1992-08-24"
-    },
-    {
-      "code": "023",
-      "firstname": "Mandana",
-      "lastname": "Salimi",
-      "dob": "1998-09-05"
-    },
-    {
-      "code": "024",
-      "firstname": "Hardeep",
-      "lastname": "Singh",
-      "dob": "2002-06-12"
     }
+    
   ],
   "pagination": {
     "offset": 5,
