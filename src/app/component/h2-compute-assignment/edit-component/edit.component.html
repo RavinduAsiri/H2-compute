@@ -1,0 +1,27 @@
+<h1 mat-dialog-title>Edit Student Details</h1>
+<div mat-dialog-content class="col">
+  <form [formGroup]="studentformGroup">
+    <div class="row">
+      <mat-form-field appearance="fill">
+        <mat-label>first name*</mat-label>
+        <input matInput name="firstname" formControlName="firstname">
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="fill">
+        <mat-label>last name*</mat-label>
+        <input matInput name="lastname" formControlName="lastname">
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="fill">
+        <mat-label>DOB*</mat-label>
+        <input matInput name="dob" formControlName="dob">
+      </mat-form-field>
+    </div>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button type="submit" (click)="onSubmit()">Ok</button>
+</div>

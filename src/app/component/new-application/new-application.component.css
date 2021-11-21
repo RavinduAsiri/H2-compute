@@ -1,0 +1,49 @@
+.mat-stepper-horizontal {
+    margin-top: 8px;
+}
+  
+.mat-form-field {
+    margin-top: 16px;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-width {
+    width: 50%;
+  }
+
+  .full-width {
+      width: 90%;
+  }
+
+  .checkbox-button-margin {
+    margin: 0 10px;
+  }
+
+  .text-padding {
+      padding: 20px;
+  }
+
+  .sm-font {
+    font-size: 12px;
+  }
+
+  .btn {
+    display:block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+
+

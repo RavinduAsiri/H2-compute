@@ -1,0 +1,121 @@
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <br>
+            <h3>Create New Application</h3>
+            <mat-card>
+                <mat-stepper #stepper>
+                    <mat-step label="Configuration">
+                            <div class="row">
+                                <mat-form-field class="example-width" appearance="fill">
+                                    <mat-label>App name*</mat-label>
+                                    <input matInput placeholder="Open Weather Map">
+                                </mat-form-field>
+                            </div>
+                            <div class="row">
+                                <mat-form-field class="example-width" appearance="fill">
+                                    <mat-label>Per token quota*</mat-label>
+                                    <mat-select>
+                                        <mat-option *ngFor="let value of values" [value]="value.value">
+                                            {{value.value}}
+                                        </mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+                            <div class="row">
+                                <mat-form-field class="example-width md-block">
+                                    <p>App image</p>
+                                    <button mat-stroked-button (click)="fileInput.click()">
+                                        Choose file
+                                    </button>
+                                    <input matInput disabled>
+                                    <input hidden (change)="selectFile($event)" #fileInput type="file" id="file">
+                                </mat-form-field>
+                                <p class="sm-font">Recommended image size: 500x500 pixels, JPEG/PNG formats</p>
+                            </div>
+                            <div class="row">
+                                <mat-form-field class="example-width" appearance="fill">
+                                    <mat-label>App description*</mat-label>
+                                    <textarea matInput placeholder="Open Weather Map"></textarea>
+                                </mat-form-field>
+                            </div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <button mat-raised-button>Save</button>
+                                </div>
+                                <div class="col-1">
+                                    <button mat-raised-button>Cancel</button>
+                                </div>
+                            </div>
+                    </mat-step>
+                    <mat-step labelPosition="bottom" label="API Key">
+                            <div class="row">
+                                <h3>Key and Secret</h3>
+                                <p>Sandbox Key and Secret is not generated for this application.</p>
+                            </div>
+                            <div class="row">
+                                <h3>Key Configuration</h3>
+                                <div class="col-6">
+                                    <mat-form-field class="full-width" appearance="fill">
+                                        <mat-label>Token Endpoint</mat-label>
+                                        <input matInput placeholder="Open Weather Map">
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-6">
+                                    <mat-form-field class="full-width" appearance="fill">
+                                        <mat-label>Revoke Endpoint</mat-label>
+                                        <input matInput placeholder="Open Weather Map">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h3>Grant Types</h3>
+                                <section class="example-section">
+                                    <mat-checkbox class="checkbox-button-margin">Refresh Token</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">SAML2</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">Password</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">Client Credentials</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">IWA-NTML</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">Device Code</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">Code</mat-checkbox>
+                                    <mat-checkbox class="checkbox-button-margin">JWT</mat-checkbox>
+                                </section>
+                            </div>
+                            <div class="row">
+                                <p class="text-padding">The application can use the following grant type to generate
+                                    Access Token.
+                                    Based on the application requirement, you can enable or desable <br> grant type for
+                                    this application.
+                                </p>
+                                <mat-form-field class="example-width" appearance="fill">
+                                    <mat-label>Callback URL</mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                                <p class="text-padding">
+                                    Callback URL is a redirection URL in the client application which is used by the
+                                    authorisation server to send the
+                                    client's user-agent(usually web browser) <br> back after granting access.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <button mat-raised-button matStepperPrevious>Previous</button>
+                                </div>
+                                <div class="col-1">
+                                    <button mat-raised-button>Generate Key</button>
+                                </div>
+                                <div class="col-7"></div>
+                                <div class="col-1">
+                                    <button mat-raised-button rounded="true">Create</button>
+                                </div>
+                                <div class="col-1">
+                                    <button mat-raised-button>Cancel</button>
+                                </div>
+                            </div>
+                    </mat-step>
+                </mat-stepper>
+            </mat-card>
+        </div>
+    </div>
+</div>
